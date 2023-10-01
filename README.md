@@ -1,15 +1,28 @@
-# Aplikasi Web "XYZ"
+<h1 align="center"><img src="https://s.w.org/style/images/about/WordPress-logotype-alternative-white.png"></h1>
+
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:|:---:
 
 
-## Sekilas Tentang
 
-Deskripsi singkat tentang aplikasi tsb.
+# Sekilas Tentang
+
+WordPress adalah proyek *Content Management System* (*CMS*) bersifat *Open Source* yang di desain sedemikian rupa untuk semua orang. Orang-orang dengan pengalaman teknologi terbatas dapat menggunakan WordPress secara “*out of the box*”, dan orang-orang yang lebih paham teknologi dapat menyesuaikan WordPress dengan cara yang luar biasa. WordPress berbasiskan PHP, MySQL dan JavaScript, serta menggunakan Node untuk dependensi JavaScript-nya. 
 
 
-## Instalasi
+# Instalasi 
 
-- Prasyarat, apa saja yang harus diinstal sebelumnya.
-- Langkah instalasi dalam CLI.
+Dalam menginstall akan lebih baik jika memahami dasar tentang cara menggunakan *command* di komputer/Laptop. Hal tersebut akan memudahkan untuk mengatur lingkungan pengembangan lokal, memulai dan menghentikannya bila diperlukan, dan menjalankan rangkaian *test*.
+
+### Kebutuhan Sistem :
+- [Node.js](https://nodejs.org/en) V16.x (*JavaScript runtime environment*)
+- Npm V8.x
+- [PHP](https://www.php.net/) V7.4+ 
+- [MySQL](https://www.mysql.com/) V5.7+ atau [MariaDB](https://mariadb.org/) V10.4+
+- [Apache](https://httpd.apache.org/) atau [Nginx](https://nginx.org/) terbaru
+- [Docker](https://www.docker.com/products/docker-desktop/) (*virtualization local Dev Env*)
+
+###
 
 
 ## Konfigurasi (opsional)
