@@ -236,7 +236,7 @@ Disamping segala kemudahan & kelebihan yang dimiliki, Wordpress juga memiliki be
 5. Tema & warna monoton. Pada umumnya website-website hasil pengembangan WordPress akan memiliki tema dan warna yang serupa. Akibatnya pemilik website kurang memiliki karakter ataupun ciri khas yang kuat. Hal ini akan menyebabkan menurunnya branding & keunikan dari suatu perusahaan/organisasi karena tidak memiliki karakter & orisinalitas yang kuat.
 
 Disamping semua itu jika dibandingkan dengan *CMS* sejenis seperti Joomla atau yang lain, Wordpress memiliki keunggulan tersendiri seperti:
-1. Kemudahan eidting konten.
+1. Kemudahan editing konten.
 2. Manajemen konten yang intuitif.
 3. Editor powerful.
 4. Konfigurasi cukup mudah.
