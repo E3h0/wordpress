@@ -125,6 +125,7 @@ Mencadangkan semua tabel di database WordPress tanpa kompresi, dengan menggunaka
 ### Restoring Hasil Backup
 1. Login ke PhpMyadmin di server
 2. Klik `Database` dan pilih database yang akan digunakan untuk mengimpor data
+![dblist](/Screenshot)   
 3. Kemudian akan ditampilkan daftar tabel yang sudah ada di dalam database tersebut
 4. Di bagian atas layar akan ada deretan tab. Klik tab `Import`.
 5. Pada layar berikutnya klik `Choose File` untuk mencari file backup yang akan di impor
