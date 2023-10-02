@@ -13,12 +13,13 @@
 
 
 # Sekilas Tentang 
-[kembali ke atas](#)
+[`kembali ke atas ↑`](#)
 
-WordPress adalah proyek *Content Management System* (*CMS*) bersifat *Open Source* yang di desain sedemikian rupa untuk semua orang. Orang-orang dengan pengalaman teknologi terbatas dapat menggunakan WordPress secara “*out of the box*”, dan orang-orang yang lebih paham teknologi dapat menyesuaikan WordPress dengan cara yang luar biasa. WordPress berbasiskan PHP, MySQL dan JavaScript, serta menggunakan Node untuk dependensi JavaScript-nya. 
+WordPress adalah proyek *Content Management System* (*CMS*) bersifat *Open Source* yang di desain sedemikian rupa untuk semua orang. WordPress dimulai/dibangun pada tahun 2003 ketika Mike Little dan Matt Mullenweg menciptakan sebuah fork dari [b2/cafelog](https://cafelog.com/). Hal tersebut didasari oleh adanya kebutuhan akan sistem penerbitan personal yang elegan dan dirancang dengan baik pada saat itu. WordPress dibangun menggunakan PHP dan MySQL, dan dilisensikan di bawah GPLv2. Pada saat ini WordPress juga merupakan platform pilihan untuk lebih dari 43% dari semua situs di seluruh web. Orang-orang dengan pengalaman teknologi terbatas dapat menggunakan WordPress secara “*out of the box*”, dan orang-orang yang lebih paham teknologi dapat menyesuaikan WordPress dengan cara yang luar biasa. WordPress berbasiskan PHP, MySQL dan JavaScript, serta menggunakan Node untuk dependensi JavaScript-nya. 
 
 
 # Instalasi 
+[`kembali ke atas ↑`](#)
 
 Dalam menginstall akan lebih baik jika memahami dasar tentang cara menggunakan *command* di komputer/Laptop. Hal tersebut akan memudahkan untuk mengatur lingkungan pengembangan lokal, memulai dan menghentikannya bila diperlukan, dan menjalankan rangkaian *test*.
 
@@ -53,6 +54,7 @@ Dalam menginstall akan lebih baik jika memahami dasar tentang cara menggunakan *
 
 
 # Konfigurasi
+[`kembali ke atas ↑`](#)
 
 Salah satu file terpenting dalam instalasi WordPress adalah file `wp-config.php`. File ini terletak di root direktori file WordPress dan berisi detail konfigurasi dasar situs web, seperti informasi koneksi database.
 
@@ -113,6 +115,8 @@ define( 'DB_HOST', 'mysql' );
 ```
 
 #  Maintenance
+[`kembali ke atas ↑`](#)
+
 ### Quick Backup
 Mencadangkan semua tabel di database WordPress tanpa kompresi, dengan menggunakan metode sederhana.
 1. Login ke PhpMyadmin di server
@@ -138,6 +142,8 @@ Mencadangkan semua tabel di database WordPress tanpa kompresi, dengan menggunaka
 ![importing](https://github.com/E3h0/wordpress/blob/f701a1722d88948a76c3b7d8150a31f373da4ed8/Screenshot/Screenshot%202023-10-02%20075743.png)
 
 # Otomatisasi 
+[`kembali ke atas ↑`](#)
+
 Dalam menginstall Wordpress, sebenarnya ada cara lain yang lebih mudah yakni dengan menggunakan *service* yang sudah disediakan oleh *web hosting* terkait. Proses instalasi nya jauh lebih mudah karena dapat dilakukan *by click* dan tidak perlu memasukkan baris-baris command seperti cara sebelumnya. Berikut ini adalah langkah-langkah untuk install wordpress menggunakan layanan *auto installer* dari [Softaculus](https://www.softaculous.com/apps/blogs/WordPress)
 1. Kunjungi website [Softaculus](https://www.softaculous.com/apps/blogs/WordPress) dan cari `Wordpress`
 2. Pilih opsi Quickly Install with Softaculous Cloud
@@ -148,6 +154,8 @@ Dalam menginstall Wordpress, sebenarnya ada cara lain yang lebih mudah yakni den
 4. Tunggu proses instalasi hingga selesai.
    
 # Cara Pemakaian
+[`kembali ke atas ↑`](#)
+
 Wordpress merupakan *CMS* yang *user friendly* untuk semua orang. Cara pemakaian nya pun terbilang cukup sederhana dan mudah dilakukan. Berikut adalah langkah-langkahnya
 1. Login ke dashboard dari Wordpress dengan mengunjungi  [localhost:8889/wp-admin](http://localhost:8889/wp-admin)
 2. Masukkan `Username` & `password`. Secara default usernamenya adalah `admin` & passwordnya adalah `password`.
@@ -203,12 +211,15 @@ Berikut ini contoh ketika melakukan edit pada tema halaman
 
 ![tema](https://github.com/E3h0/wordpress/blob/0aa23d861a964b79ad23217369120d6af9e28cc7/Screenshot/Screenshot%202023-10-02%20094908.png)
 
-## Pembahasan
-   
-- Pendapat anda tentang aplikasi web ini
-    - kelebihan
-    - kekurangan
-- Bandingkan dengan aplikasi web lain yang sejenis
+# Pembahasan
+[`kembali ke atas ↑`](#)
+
+
+
+
+Proyek open source WordPress telah berkembang secara progresif dari waktu ke waktu-didukung oleh para pengembang, desainer, ilmuwan, blogger, dan banyak lagi. WordPress memberikan kesempatan bagi siapa saja untuk membuat dan berbagi, mulai dari kebutuhan pribadi yang sederhana hingga kebutuhan/ide besar yang mengubah dunia.
+
+
 
 
 ## Referensi
