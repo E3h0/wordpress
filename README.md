@@ -247,5 +247,13 @@ Disamping semua itu jika dibandingkan dengan *CMS* sejenis seperti Joomla atau y
 
 
 ## Referensi
-
-Cantumkan tiap sumber informasi yang anda pakai.
+- https://github.com/auriza/komdat-lab/blob/master/projek.md
+- https://github.com/auriza/komdat-lab/blob/master/templat.md
+- https://github.com/WordPress/wordpress-develop
+- https://wordpress.org/about/requirements/
+- https://wordpress.org/about/logos/
+- https://wordpress.org/documentation/article/backing-up-your-database/#quick-backup-process
+- https://wordpress.org/documentation/article/restoring-your-database-from-backup/
+- https://www.softaculous.com/
+- https://projasaweb.com/kekurangan-wordpress/
+- https://www.hostinger.co.id/tutorial/cms-terbaik
