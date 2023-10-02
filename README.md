@@ -222,13 +222,26 @@ Proyek open source WordPress telah berkembang secara progresif dari waktu ke wak
 1. Dibuat untuk berbagai macam kalangan. Wordpress dapat bekerja dengan pengaturan minimum, menekankan pada aksesibilitas, kinerja, keamanan, dan kemudahan penggunaan. Perangkat lunak WordPress dapat dikatakan sederhana dan menawarkan fitur-fitur yang canggih.
 2. *Open Source*. Wordpress mendukung gagasan demokratisasi dan kebebasan *open source* yang dibuktikan dengan komunitas besar yang berkolaborasi dan berkontribusi pada proyek pengembangannya.
 3. Ramah & Inklusif. Kontributor WordPress bekerja di seluruh dunia, dan telah mendedikasikan waktu berjam-jam untuk membangun perangkat yang memberikan kemudahan bagi siapa saja yang ingin membuat situs.
-4. Menekankan pada prinsip *The Four Freedom* yakni
-   - The freedom to run the program for any purpose.
-   - The freedom to study how the program works and change it to make it do what you wish.
-   - The freedom to redistribute.
-   - The freedom to distribute copies of your modified versions to others.
+4. Menekankan pada prinsip *The Four Freedom*
+   - *The freedom to run the program for any purpose.*
+   - *The freedom to study how the program works and change it to make it do what you wish.*
+   - *The freedom to redistribute.*
+   - *The freedom to distribute copies of your modified versions to others.*
 
+Disamping segala kemudahan & kelebihan yang dimiliki, Wordpress juga memiliki beberapa kekurangan seperti:
+1. Masalah Performa/Kecepatan. Dalam beberapa kasus, penggunaan banyak plugin dalam wordpress dapat mengakibatkan menurunnya performa & kecepatan akses situs sehingga akan kalah oleh situs-situs serupa yang lebih baik performanya.
+2. Faktor keamanan. Wordpress memang memprioritaskan soal keamanan, akan tetapi itu bukan berarti wordpress sepenuhnya sangat aman karena peretasan atau masalah keamanan lainnya masih mungkin terjadi. Apalagi dalam kasus ini, mengingat pengembang WordPress melibatkan berbagai pihak dalam komunitas dalam pengembangannya.
+3. Plugin. Di sisi lain plugin ini sangat membantu penggunanya. Akan tetapi disisi lain, plugin tersebut justru menjadi sebuah celah. Hal tersebut mungkin terjadi mengingat plugin-plugin tersebut dikembangkan oleh pihak ketiga dan tidak ada yang dapat menjamin kualitasnya, keamanannya dan keberlangsungannya.
+4. Keterbatasan pengembangan. Meskipun dikatakan mudah, akan tetapi dalam prosesnya tidak semudah yang dibayangkan. Untuk mendapatkan tampilan dan fungsi yang benar-benar dibutuhkan & interaktif, tidak cukup hanya dengan mempelajari bagaimana WordPress bekerja. Dalam kasus ini perlu juga kemampuan dalam bahasa pemprograman seperti php, javascript, atau CSS serta HTML untuk mewujudkannya.  Oleh karena itu diperlukan waktu dan usaha untuk mempelajarinya.
+5. Tema & warna monoton. Pada umumnya website-website hasil pengembangan WordPress akan memiliki tema dan warna yang serupa. Akibatnya pemilik website kurang memiliki karakter ataupun ciri khas yang kuat. Hal ini akan menyebabkan menurunnya branding & keunikan dari suatu perusahaan/organisasi karena tidak memiliki karakter & orisinalitas yang kuat.
 
+Disamping semua itu jika dibandingkan dengan *CMS* sejenis seperti Joomla atau yang lain, Wordpress memiliki keunggulan tersendiri seperti:
+1. Kemudahan eidting konten.
+2. Manajemen konten yang intuitif.
+3. Editor powerful.
+4. Konfigurasi cukup mudah.
+5. Didukung ribuan plugin dan tema yang tersedia.
+6. Memiliki komunitas yang besar, solid, supportif dan siap memmbantu kapan saja dari seluruh belahan dunia.
 
 
 
