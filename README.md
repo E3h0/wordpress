@@ -1,7 +1,7 @@
 <h1 align="center"><img src="https://s.w.org/style/images/about/WordPress-logotype-alternative-white.png"></h1>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:|:---:
+[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 
 
 
@@ -49,7 +49,7 @@ Dalam menginstall akan lebih baik jika memahami dasar tentang cara menggunakan *
 Salah satu file terpenting dalam instalasi WordPress adalah file `wp-config.php`. File ini terletak di root direktori file WordPress dan berisi detail konfigurasi dasar situs web, seperti informasi koneksi database.
 
 ### table_prefix
-Adalah nilai yang ditempatkan di bagian depan tabel basis data. Ubah nilainya jika ingin menggunakan nama selain `wp_` untuk awalan databas. Biasanya diubah jika menginstal beberapa blog WordPress dalam database yang sama, seperti yang dilakukan dengan fitur multisite.
+Adalah nilai yang ditempatkan di bagian depan tabel basis data. Ubah nilainya jika ingin menggunakan nama selain `wp_` untuk awalan database. Biasanya diubah jika menginstal beberapa blog WordPress dalam database yang sama, seperti yang dilakukan dengan fitur multisite.
 ```
 table_prefix = 'example123_'; // Only numbers, letters, and underscores please!
 ```
@@ -61,29 +61,62 @@ Jika WordPress diinstal ke dalam direktori bernama `wordpress` untuk domain `exa
 ```
 define( 'WP_SITEURL', 'https://example.com/wordpress' );
 ```
+
 Mengatur `WP_SITEURL` secara dinamis berdasarkan `$_SERVER['HTTP_HOST']`
 ```
 define( 'WP_SITEURL', 'https://' . $_SERVER['HTTP_HOST'] . '/path/to/wordpress' );
 ```
+
 Mengatur `WP_SITEURL` secara dinamis berdasarkan `$_SERVER['NAMA_SERVER']`
 ```
 define( 'WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/path/to/wordpress' );
 ```
 
+### Blog Address (URL) / WP_HOME
+Digunakan untuk mengatur *URL* home. Home adalah alamat yang nantinya akan diketikkan oleh orang-orang di browser mereka untuk mencapai blog WordPress. Alamat ini harus menyertakan bagian `http://` dan tidak boleh ada garis miring `/` di bagian akhir. Menambahkan ini dapat mengurangi jumlah pemanggilan database saat memuat situs.
+```
+define( 'WP_HOME', 'http://example.com/wordpress' );
+```
+Jika enempatkan index.php di direktori web-root, maka dapat menggunakan konfigurasi berikut
+```
+define( 'WP_HOME', 'http://example.com' );
+```
+Mengatur `WP_HOME` secara dinamis berdasarkan `$_SERVER['HTTP_HOST']`
+```
+define( 'WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/path/to/wordpress' );
+```
 
-Plugin untuk fungsi tambahan
-- login dengan Google/Facebook
-- editor Markdown
-- dll
+### Database Username
+Mengatur username yang akan digunakan pada database
+```
+define( 'DB_USER', 'root' );
+```
 
+### Database Password
+Mengatur password yang akan digunakan pada database
+```
+define( 'DB_PASSWORD', 'password' );
+```
 
-##  Maintenance (opsional)
+### Database hostname
+Mengatur nama host pada database
+```
+define( 'DB_HOST', 'mysql' );
+```
 
-Setting tambahan untuk maintenance secara periodik, misalnya:
-- buat backup database tiap pekan
-- hapus direktori sampah tiap hari
-- dll
+#  Maintenance
+### Quick Backup
+Mencadangkan semua tabel di database WordPress tanpa kompresi, dengan menggunakan metode sederhana.
+1. Login ke PhpMyadmin di server
+2. Dari jendela sebelah kiri, pilih database WordPress. Dalam contoh ini, nama database adalah "wp"
+3. Jendela sebelah kanan akan menampilkan semua tabel di dalam database WordPress. Klik tab `Eksport` pada tab atas.
 
+![Backup](https://wordpress.org/documentation/files/2018/11/phpmyadmin_dbtop.jpg)
+
+4.  Pastikan opsi `Quick` dipilih, klik `Go` dan file backup pun akan mulai diunduh. Simpan file ke komputer. Tergantung pada ukuran basis data, proses ini mungkin memerlukan waktu beberapa saat.
+
+### Restoring Hasil Backup
+1. Login ke PhpMyadmin di server
 
 ## Otomatisasi (opsional)
 
