@@ -12,7 +12,8 @@
 
 
 
-# Sekilas Tentang
+# Sekilas Tentang 
+
 
 WordPress adalah proyek *Content Management System* (*CMS*) bersifat *Open Source* yang di desain sedemikian rupa untuk semua orang. Orang-orang dengan pengalaman teknologi terbatas dapat menggunakan WordPress secara “*out of the box*”, dan orang-orang yang lebih paham teknologi dapat menyesuaikan WordPress dengan cara yang luar biasa. WordPress berbasiskan PHP, MySQL dan JavaScript, serta menggunakan Node untuk dependensi JavaScript-nya. 
 
@@ -203,7 +204,8 @@ Berikut ini contoh ketika melakukan edit pada tema halaman
 ![tema](https://github.com/E3h0/wordpress/blob/0aa23d861a964b79ad23217369120d6af9e28cc7/Screenshot/Screenshot%202023-10-02%20094908.png)
 
 ## Pembahasan
-
+<a class="top-link hide" href="#top">↑</a>
+<a name="top"></a>
 - Pendapat anda tentang aplikasi web ini
     - kelebihan
     - kekurangan
