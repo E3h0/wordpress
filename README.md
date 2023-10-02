@@ -1,7 +1,14 @@
 <h1 align="center"><img src="https://s.w.org/style/images/about/WordPress-logotype-alternative-white.png"></h1>
 
-[Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Konfigurasi](#konfigurasi) | [Maintenance](#maintenance) | [Otomatisasi](#otomatisasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi)
-:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+- [Sekilas Tentang](#sekilas-tentang)
+- [Instalasi](#instalasi)
+- [Konfigurasi](#konfigurasi)
+- [Maintenance](#maintenance)
+- [Otomatisasi](#otomatisasi)
+- [Cara Pemakaian](#cara-pemakaian)
+- [Pembahasan](#pembahasan)
+- [Referensi](#referensi)
+
 
 
 
@@ -117,8 +124,13 @@ Mencadangkan semua tabel di database WordPress tanpa kompresi, dengan menggunaka
 
 ### Restoring Hasil Backup
 1. Login ke PhpMyadmin di server
-
-## Otomatisasi (opsional)
+2. Klik `Database` dan pilih database yang akan digunakan untuk mengimpor data
+3. Kemudian akan ditampilkan daftar tabel yang sudah ada di dalam database tersebut
+4. Di bagian atas layar akan ada deretan tab. Klik tab `Import`.
+5. Pada layar berikutnya klik `Choose File` untuk mencari file backup yang akan di impor
+6. Di bagian format pastikan `SQL` dipilih
+7. Klik toombol `Import`
+## Otomatisasi 
 
 Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
