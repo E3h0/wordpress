@@ -124,7 +124,7 @@ Mencadangkan semua tabel di database WordPress tanpa kompresi, dengan menggunaka
 
 ### Restoring Hasil Backup
 1. Login ke PhpMyadmin di server
-2. Klik `Database` dan pilih database yang akan digunakan untuk mengimpor data Screenshot 2023-10-02 075551.png
+2. Klik `Database` dan pilih database yang akan digunakan untuk mengimpor data 
 3. Kemudian akan ditampilkan daftar tabel yang sudah ada di dalam database tersebut
 4. Di bagian atas layar akan ada deretan tab. Klik tab `Import`.
 
@@ -182,14 +182,25 @@ Wordpress merupakan *CMS* yang *user friendly* untuk semua orang. Cara pemakaian
 
 ![plugin](https://github.com/E3h0/wordpress/blob/39bf94b24091924733969f0cd953371e3738a267/Screenshot/Screenshot%202023-10-02%20092440.png)
 
+11. Menu `Users` berfungsi untuk mengelola user/pengguna pada situs seperti menambahkan user baru dan menghapus user.
 
+![user](https://github.com/E3h0/wordpress/blob/d66ba8acbf51e382486bdd3cfa998aa069a0c0d1/Screenshot/Screenshot%202023-10-02%20092902.png)
 
+12. Menu `Tools` digunakan untuk mengelola utilitas terkait situs seperti melakukan impor/ekspor post & comment dari sumber lain, melakukan pengecekan status kesehatan situs, ekspor data pribadi, melakukan edit tema dan plugin.
 
+![tools](https://github.com/E3h0/wordpress/blob/7d45029dd1d81681a6b50e7a002420531eefea70/Screenshot/Screenshot%202023-10-02%20093327.png)
 
-- Tampilan aplikasi web
-- Fungsi-fungsi utama
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
+13. Menu `Settings` digunakan untuk melakukan pengaturan pada *CMS* Wordpress seperti mengatur alamat situs, alamat wordpress, format penanggalan, privasi dan permalink
 
+![settings](https://github.com/E3h0/wordpress/blob/033aef591c90ad7a7e3f937106d963b4f1abf16b/Screenshot/Screenshot%202023-10-02%20093721.png)
+
+Berikut ini contoh ketika melakukan edit pada halaman
+
+![halaman](https://github.com/E3h0/wordpress/blob/c1c3c0b11542056baad4137065647bcca745c05a/Screenshot/Screenshot%202023-10-02%20094247.png)
+
+Berikut ini contoh ketika melakukan edit pada tema halaman 
+
+![tema](https://github.com/E3h0/wordpress/blob/0aa23d861a964b79ad23217369120d6af9e28cc7/Screenshot/Screenshot%202023-10-02%20094908.png)
 
 ## Pembahasan
 
