@@ -15,7 +15,7 @@
 # Sekilas Tentang 
 [`kembali ke atas ↑`](#)
 
-WordPress adalah proyek *Content Management System* (*CMS*) bersifat *Open Source* yang di desain sedemikian rupa untuk semua orang. WordPress dimulai/dibangun pada tahun 2003 ketika Mike Little dan Matt Mullenweg menciptakan sebuah fork dari [b2/cafelog](https://cafelog.com/). Hal tersebut didasari oleh adanya kebutuhan akan sistem penerbitan personal yang elegan dan dirancang dengan baik pada saat itu. WordPress dibangun menggunakan PHP dan MySQL, dan dilisensikan di bawah GPLv2. Pada saat ini WordPress juga merupakan platform pilihan untuk lebih dari 43% dari semua situs di seluruh web. Orang-orang dengan pengalaman teknologi terbatas dapat menggunakan WordPress secara “*out of the box*”, dan orang-orang yang lebih paham teknologi dapat menyesuaikan WordPress dengan cara yang luar biasa. WordPress berbasiskan PHP, MySQL dan JavaScript, serta menggunakan Node untuk dependensi JavaScript-nya. 
+WordPress adalah proyek *Content Management System* (*CMS*) bersifat *Open Source* yang di desain sedemikian rupa untuk semua orang. WordPress dimulai/dibangun pada tahun 2003 ketika Mike Little dan Matt Mullenweg menciptakan sebuah fork dari [b2/cafelog](https://cafelog.com/). Hal tersebut didasari oleh adanya kebutuhan akan sistem penerbitan personal yang elegan dan dirancang dengan baik pada saat itu. WordPress dibangun menggunakan PHP dan MySQL, dan dilisensikan di bawah GPLv2.  Orang-orang dengan pengalaman teknologi terbatas dapat menggunakan WordPress secara “*out of the box*”, dan orang-orang yang lebih paham teknologi dapat menyesuaikan WordPress dengan cara yang luar biasa. WordPress berbasiskan PHP, MySQL dan JavaScript, serta menggunakan Node untuk dependensi JavaScript-nya. 
 
 
 # Instalasi 
@@ -217,7 +217,18 @@ Berikut ini contoh ketika melakukan edit pada tema halaman
 
 
 
-Proyek open source WordPress telah berkembang secara progresif dari waktu ke waktu-didukung oleh para pengembang, desainer, ilmuwan, blogger, dan banyak lagi. WordPress memberikan kesempatan bagi siapa saja untuk membuat dan berbagi, mulai dari kebutuhan pribadi yang sederhana hingga kebutuhan/ide besar yang mengubah dunia.
+Proyek open source WordPress telah berkembang secara progresif dari waktu ke waktu-didukung oleh para pengembang, desainer, ilmuwan, blogger, dan banyak lagi. WordPress memberikan kesempatan bagi siapa saja untuk membuat dan berbagi, mulai dari kebutuhan pribadi yang sederhana hingga kebutuhan/ide besar yang mengubah dunia. Pada saat ini dengan segala keunggulannya, WordPress menjadi platform pilihan untuk lebih dari 43% dari semua situs di seluruh web. Keunggulan dari wordpress adalah
+
+1. Dibuat untuk berbagai macam kalangan. Wordpress dapat bekerja dengan pengaturan minimum, menekankan pada aksesibilitas, kinerja, keamanan, dan kemudahan penggunaan. Perangkat lunak WordPress dapat dikatakan sederhana dan menawarkan fitur-fitur yang canggih.
+2. *Open Source*. Wordpress mendukung gagasan demokratisasi dan kebebasan *open source* yang dibuktikan dengan komunitas besar yang berkolaborasi dan berkontribusi pada proyek pengembangannya.
+3. Ramah & Inklusif. Kontributor WordPress bekerja di seluruh dunia, dan telah mendedikasikan waktu berjam-jam untuk membangun perangkat yang memberikan kemudahan bagi siapa saja yang ingin membuat situs.
+4. Menekankan pada prinsip *The Four Freedom* yakni
+   - The freedom to run the program for any purpose.
+   - The freedom to study how the program works and change it to make it do what you wish.
+   - The freedom to redistribute.
+   - The freedom to distribute copies of your modified versions to others.
+
+
 
 
 
