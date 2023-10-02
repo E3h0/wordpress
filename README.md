@@ -124,19 +124,67 @@ Mencadangkan semua tabel di database WordPress tanpa kompresi, dengan menggunaka
 
 ### Restoring Hasil Backup
 1. Login ke PhpMyadmin di server
-2. Klik `Database` dan pilih database yang akan digunakan untuk mengimpor data
-![dblist](/Screenshot)   
+2. Klik `Database` dan pilih database yang akan digunakan untuk mengimpor data Screenshot 2023-10-02 075551.png
 3. Kemudian akan ditampilkan daftar tabel yang sudah ada di dalam database tersebut
 4. Di bagian atas layar akan ada deretan tab. Klik tab `Import`.
+
+![dblist](https://github.com/E3h0/wordpress/blob/f701a1722d88948a76c3b7d8150a31f373da4ed8/Screenshot/Screenshot%202023-10-02%20075551.png)  
+
 5. Pada layar berikutnya klik `Choose File` untuk mencari file backup yang akan di impor
 6. Di bagian format pastikan `SQL` dipilih
 7. Klik toombol `Import`
-## Otomatisasi 
 
-Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
+![importing](https://github.com/E3h0/wordpress/blob/f701a1722d88948a76c3b7d8150a31f373da4ed8/Screenshot/Screenshot%202023-10-02%20075743.png)
+
+# Otomatisasi 
+Dalam menginstall Wordpress, sebenarnya ada cara lain yang lebih mudah yakni dengan menggunakan *service* yang sudah disediakan oleh *web hosting* terkait. Proses instalasi nya jauh lebih mudah karena dapat dilakukan *by click* dan tidak perlu memasukkan baris-baris command seperti cara sebelumnya. Berikut ini adalah langkah-langkah untuk install wordpress menggunakan layanan *auto installer* dari [Softaculus](https://www.softaculous.com/apps/blogs/WordPress)
+1. Kunjungi website [Softaculus](https://www.softaculous.com/apps/blogs/WordPress) dan cari `Wordpress`
+2. Pilih opsi Quickly Install with Softaculous Cloud
+
+![install](https://github.com/E3h0/wordpress/blob/51f3bdefad866486c1a050f6242e01f20aae7c18/Screenshot/Screenshot%202023-10-02%20083743.png)
+
+3. Isi semua Informasi yang diminta seperti domain, autentikasi dan pastikan semuanya sudah lengkap dan benar
+4. Tunggu proses instalasi hingga selesai.
+   
+# Cara Pemakaian
+Wordpress merupakan *CMS* yang *user friendly* untuk semua orang. Cara pemakaian nya pun terbilang cukup sederhana dan mudah dilakukan. Berikut adalah langkah-langkahnya
+1. Login ke dashboard dari Wordpress dengan mengunjungi  [localhost:8889/wp-admin](http://localhost:8889/wp-admin)
+2. Masukkan `Username` & `password`. Secara default usernamenya adalah `admin` & passwordnya adalah `password`.
+ 
+![login](https://github.com/E3h0/wordpress/blob/75ca041c815c05cd1098b4f84c94c543fd314ec4/Screenshot/Screenshot%202023-10-02%20084940.png)
+
+3. Klik Login dan selanjutnya akan diarahkan pada halaman dashboard dari wordpress
+   
+![dboard](https://github.com/E3h0/wordpress/blob/481722fd2b45004ea0fa9d2a0bc295165daed439/Screenshot/Screenshot%202023-10-02%20085706.png)
+
+4. Dashboard tersebut menampilkan berbagai menu dan beberapa informasi penting terkait situs seperti status *health* dari situs dan juga *quick draft*
+5. Di jendela kiri terdapat berbagai macam menu yang dapat diakses untuk keperluan tertentu. Menu `Posts` berfungsi untuk mengelola post seperti membuat post baru, mengedit, melakukan kategorisasi dan juga menambahkan tag
+   
+![Posts](https://github.com/E3h0/wordpress/blob/4dc92e09f2b1b719629b589df96b1510213af90c/Screenshot/Screenshot%202023-10-02%20090444.png)
+
+6. Menu `Media` berfungsi untuk mengelola media pada situs, seperti menambahkan/menghapus media dan melakukan pengelompokan media.
+
+![Media](https://github.com/E3h0/wordpress/blob/0c4f71ff6f6e318f650e7a84cebcea658e0295f4/Screenshot/Screenshot%202023-10-02%20090856.png)
+
+7. Menu `Pages` berfungsi untuk mengelola halaman, seperti menambahkan halaman baru, membuat template dan mengedit halaman.
+
+![halaman](https://github.com/E3h0/wordpress/assets/101927398/0f61baf2-df6c-4204-b5db-b1acef833781)
+
+8. Menu `Comments` berfungsi untuk mengelola dan melihat komentar yang ada ataupun masuk ke situs.
+
+![komentar](https://github.com/E3h0/wordpress/blob/7ed91718a3d871d6a8e10d0ae853f12c5ca65edf/Screenshot/Screenshot%202023-10-02%20091725.png)
+
+9. Menu `Appearance` berfungsi untuk mengelola dan melakukan edit pada tema yang digunakan pada situs.
+
+![tema](https://github.com/E3h0/wordpress/blob/5fd2139f75886714dc2f7aee0ec68f587266cc1b/Screenshot/Screenshot%202023-10-02%20092124.png)
+
+10. Menu `Plugins` berfungsi untuk mengelola plugin seperti menambahkan plugin baru dan mengupdate plugin yang sudah ada.
+
+![plugin](https://github.com/E3h0/wordpress/blob/39bf94b24091924733969f0cd953371e3738a267/Screenshot/Screenshot%202023-10-02%20092440.png)
 
 
-## Cara Pemakaian
+
+
 
 - Tampilan aplikasi web
 - Fungsi-fungsi utama
