@@ -51,6 +51,15 @@ Dalam menginstall akan lebih baik jika memahami dasar tentang cara menggunakan *
    npm run env:install
    ```
 5. Jika langkah demi langkah sudah dilakukan dengan benar, pada tahap ini WordPress *CMS* sudah dapat diakses di [localhost:8889](http://localhost:8889)
+6. Ketika tidak digunakan dan ingin menghentikan *environment* :
+   ```
+   npm run env:stop
+   ```
+7. Ketika ingin menjalankan *environment* kembali:
+   ```
+   npm run env:start
+   ```
+   
 
 
 # Konfigurasi
