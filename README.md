@@ -1,4 +1,11 @@
-<h1 align="center"><img src="https://s.w.org/style/images/about/WordPress-logotype-alternative-white.png"></h1>
+<div align="center">
+   <h1 align="center"><img src="https://s.w.org/style/images/about/WordPress-logotype-alternative-white.png"></h1>
+   <h3> Disusun Oleh: </h3> 
+   G6401211020 Fathan Abdul Mu'ti <br>				
+   G6401211030 Ester Bina Br. Damanik <br>				
+   G64190001 Ahmad Hadryan Mora <br>				
+   G6401211053 Andra Dihat Putra<br><br>
+</div> <br><br><br><br><br><br><br><br><br>
 
 - [Sekilas Tentang](#sekilas-tentang)
 - [Instalasi](#instalasi)
@@ -8,6 +15,7 @@
 - [Cara Pemakaian](#cara-pemakaian)
 - [Pembahasan](#pembahasan)
 - [Referensi](#referensi)
+
 
 
 
