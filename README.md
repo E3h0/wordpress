@@ -2,7 +2,7 @@
    <h1 align="center"><img src="https://s.w.org/style/images/about/WordPress-logotype-alternative-white.png"></h1>
    <h3> Disusun Oleh: </h3> 
    G6401211020 <a href="https://github.com/E3h0">Fathan Abdul Mu'ti</a> <br>				
-   G6401211030 <a href="esterbinabrdamanik@apps.ipb.ac.id">Ester Bina Br. Damanik</a> <br>				
+   G6401211030 <a href="https://github.com/EsterDamanik">Ester Bina Br. Damanik</a> <br>				
    G64190001 Ahmad Hadryan Mora <br>				
    G6401211053 <a href="https://github.com/andradp">Andra Dihat Putra</a><br><br>
 </div> <br><br><br><br><br><br><br><br><br>
