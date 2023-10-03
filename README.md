@@ -169,6 +169,7 @@ Dalam menginstall Wordpress, sebenarnya ada cara lain yang lebih mudah yakni den
 
 3. Isi semua Informasi yang diminta seperti domain, autentikasi dan pastikan semuanya sudah lengkap dan benar
 4. Tunggu proses instalasi hingga selesai.
+5. Contoh website yang telah kami buat dengan wordpress di hosting dapat di akses di https://andradp.my.id/
    
 # Cara Pemakaian
 [`kembali ke atas ↑`](#)
